@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T02:52:24.480Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="MV8Mt9Cd0BYzF39PT6AN" version="14.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-30T02:54:43.517Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="DvrL-izjNsXhHMphlZ7T" version="14.8.0" type="github" pages="2">
   <diagram id="ov6ChHv1gcQuz6VuI6vZ" name="v1.0">
     <mxGraphModel dx="571" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C1HrOvbU2HApSeE2l7SA" name="v1.1">
-    <mxGraphModel dx="338" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="331" dy="680" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ruJSrZG7weRMKPlPqIuI-0" />
         <mxCell id="ruJSrZG7weRMKPlPqIuI-1" parent="ruJSrZG7weRMKPlPqIuI-0" />
@@ -209,7 +209,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ruJSrZG7weRMKPlPqIuI-8" value="Dispatcher" style="fontStyle=0;fontSize=14;" vertex="1" parent="ruJSrZG7weRMKPlPqIuI-1">
-          <mxGeometry x="980" y="150" width="220" height="50" as="geometry" />
+          <mxGeometry x="980" y="150" width="225" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ruJSrZG7weRMKPlPqIuI-9" value="ExecutorContext" style="fontStyle=0;fontSize=14;" vertex="1" parent="ruJSrZG7weRMKPlPqIuI-1">
           <mxGeometry x="1320" y="60" width="130" height="50" as="geometry" />
@@ -285,9 +285,6 @@
         <mxCell id="ruJSrZG7weRMKPlPqIuI-32" value="&lt;pre style=&quot;font-family: &amp;quot;meslo lg l dz for powerline&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;pre style=&quot;font-size: 10.5pt ; font-family: &amp;quot;meslo lg l dz for powerline&amp;quot; , monospace&quot;&gt;Dispatcher&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontStyle=0;" vertex="1" parent="ruJSrZG7weRMKPlPqIuI-1">
           <mxGeometry x="1242" y="630" width="346" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ruJSrZG7weRMKPlPqIuI-33" value="&lt;pre style=&quot;font-family: &amp;#34;meslo lg l dz for powerline&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-size: 10.5pt ; font-family: &amp;#34;meslo lg l dz for powerline&amp;#34; , monospace&quot;&gt;ExecutorContext&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="ruJSrZG7weRMKPlPqIuI-1">
-          <mxGeometry x="1611" y="630" width="160" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="ruJSrZG7weRMKPlPqIuI-34" value="&lt;font style=&quot;font-size: 12px&quot;&gt;RayExecutor/&lt;span style=&quot;font-family: &amp;quot;meslo lg l dz for powerline&amp;quot; , monospace ; text-align: center&quot;&gt;Coordinator&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ruJSrZG7weRMKPlPqIuI-1">
           <mxGeometry x="1220" y="510" width="162" height="18" as="geometry" />
         </mxCell>
@@ -307,7 +304,7 @@
         <mxCell id="ruJSrZG7weRMKPlPqIuI-38" value="Monitor task status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ruJSrZG7weRMKPlPqIuI-1">
           <mxGeometry x="1450" y="813" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ruJSrZG7weRMKPlPqIuI-39" value="&lt;pre style=&quot;font-family: &amp;#34;meslo lg l dz for powerline&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;meslo lg l dz for powerline&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;Dsx&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="ruJSrZG7weRMKPlPqIuI-1">
+        <mxCell id="ruJSrZG7weRMKPlPqIuI-39" value="&lt;pre style=&quot;font-family: &amp;#34;meslo lg l dz for powerline&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;meslo lg l dz for powerline&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-size: 10.5pt ; font-family: &amp;#34;meslo lg l dz for powerline&amp;#34; , monospace&quot;&gt;ExecutorContext&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="ruJSrZG7weRMKPlPqIuI-1">
           <mxGeometry x="1610" y="540" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ruJSrZG7weRMKPlPqIuI-40" value="" style="group;" vertex="1" connectable="0" parent="ruJSrZG7weRMKPlPqIuI-1">
