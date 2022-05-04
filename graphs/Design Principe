@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T12:33:45.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="MV-8Bo7NEvxw1-R5HMZ2" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-04T12:38:23.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="uWtajBTpIubYtLYdPkym" version="17.5.0" type="github">
   <diagram id="6VIBzNW0BcymP9SfT1m7" name="Page-1">
     <mxGraphModel dx="743" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,38 +7,38 @@
         <mxCell id="bmrYp95nAStiTVVaU8XS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="170" width="400" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="bmrYp95nAStiTVVaU8XS-2" value="设计原则" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="120" y="170" width="400" height="70" as="geometry" />
+        <mxCell id="bmrYp95nAStiTVVaU8XS-2" value="设计原则" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="480" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="bmrYp95nAStiTVVaU8XS-3" value="SOLID" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="bmrYp95nAStiTVVaU8XS-3" value="SOLID" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="120" y="240" width="60" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="bmrYp95nAStiTVVaU8XS-4" value="SRP:&amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 12px;&quot;&gt;一个类只负责完成一个职责或者功能&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="180" y="240" width="340" height="60" as="geometry" />
+        <mxCell id="bmrYp95nAStiTVVaU8XS-4" value="&lt;b&gt;SRP&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 12px&quot;&gt;一个类只负责完成一个职责或者功能&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bmrYp95nAStiTVVaU8XS-5" value="OCP:&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 12px;&quot;&gt;对扩展开放，对修改关闭&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="180" y="300" width="340" height="60" as="geometry" />
+        <mxCell id="bmrYp95nAStiTVVaU8XS-5" value="&lt;b&gt;OCP&lt;/b&gt;:&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 12px&quot;&gt;对扩展开放，对修改关闭&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bmrYp95nAStiTVVaU8XS-6" value="LSP:&amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 12px;&quot;&gt;子类对象能够替换程序中父类对象出现的任何地方，并且保证原来程序的逻辑行为不变及正确性不被破坏&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="180" y="360" width="340" height="60" as="geometry" />
+        <mxCell id="bmrYp95nAStiTVVaU8XS-6" value="&lt;b&gt;LSP&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 12px&quot;&gt;子类对象能够替换程序中父类对象出现的任何地方，并且保证原来程序的逻辑行为不变及正确性不被破坏&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bmrYp95nAStiTVVaU8XS-7" value="&lt;font style=&quot;font-size: 12px&quot;&gt;ISP:&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;客户端不应该被强迫依赖它不需要的接口&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="180" y="420" width="340" height="60" as="geometry" />
+        <mxCell id="bmrYp95nAStiTVVaU8XS-7" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;ISP&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;客户端不应该被强迫依赖它不需要的接口&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bmrYp95nAStiTVVaU8XS-8" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;DIP:&amp;nbsp;&lt;/font&gt;&lt;span&gt;&lt;span class=&quot;ne-text&quot; style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;高层模块不依赖低层模块，它们共同依赖同一个抽象。抽象不要依赖具体实现细节，具体实现细节依赖抽象&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="180" y="480" width="340" height="60" as="geometry" />
+        <mxCell id="bmrYp95nAStiTVVaU8XS-8" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;DIP&lt;/b&gt;:&amp;nbsp;&lt;/font&gt;&lt;span&gt;&lt;span class=&quot;ne-text&quot; style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;高层模块不依赖低层模块，它们共同依赖同一个抽象。抽象不要依赖具体实现细节，具体实现细节依赖抽象&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="480" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bmrYp95nAStiTVVaU8XS-9" value="&lt;b&gt;KISS&lt;/b&gt;: 尽量保持简单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="120" y="540" width="400" height="40" as="geometry" />
+        <mxCell id="bmrYp95nAStiTVVaU8XS-9" value="&lt;b&gt;KISS&lt;/b&gt;: 尽量保持简单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="480" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bmrYp95nAStiTVVaU8XS-10" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;YAGNI&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;You Ain’t Gonna Need It, 当前不需要的就不要做&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="120" y="580" width="400" height="40" as="geometry" />
+        <mxCell id="bmrYp95nAStiTVVaU8XS-10" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;YAGNI&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;You Ain’t Gonna Need It, 当前不需要的就不要做&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="480" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bmrYp95nAStiTVVaU8XS-11" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;DRY&lt;/b&gt;: Don&#39;t Repeat Yourself,&amp;nbsp;&lt;span class=&quot;ne-text&quot; style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;不要写重复的代码&lt;/span&gt;&lt;span class=&quot;ne-text&quot; style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;。&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="120" y="620" width="400" height="60" as="geometry" />
+        <mxCell id="bmrYp95nAStiTVVaU8XS-11" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;DRY&lt;/b&gt;: Don&#39;t Repeat Yourself,&amp;nbsp;&lt;span class=&quot;ne-text&quot; style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;不要写重复的代码&lt;/span&gt;&lt;span class=&quot;ne-text&quot; style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;。&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bmrYp95nAStiTVVaU8XS-12" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;LOD&lt;/b&gt;: Law of Demeter, 最小知识原则&lt;span class=&quot;ne-text&quot; style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;。&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="120" y="680" width="400" height="60" as="geometry" />
+        <mxCell id="bmrYp95nAStiTVVaU8XS-12" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;LOD&lt;/b&gt;: Law of Demeter, 最小知识原则&lt;span class=&quot;ne-text&quot; style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;。&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="480" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
