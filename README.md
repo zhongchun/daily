@@ -1,2 +1,2 @@
 # daily
-Some daily scripts.
+Some common scripts.
