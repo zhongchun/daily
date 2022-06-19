@@ -1,2 +1,2 @@
 # daily
-Daily records.
+Some daily records.
