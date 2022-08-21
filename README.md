@@ -1,2 +1,3 @@
 # daily
+
 Some daily records.
