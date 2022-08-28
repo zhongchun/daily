@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-28T14:27:58.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="GgA49H-1MrIPOoqRPL-F" version="17.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-28T14:28:25.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0Pmv_RXr8LMCx2leQS8e" version="17.5.1" type="github" pages="2">
   <diagram name="LocalCluster" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -151,6 +151,171 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IDWX3KP-84P4_elMJV3M-105" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IDWX3KP-84P4_elMJV3M-97" target="IDWX3KP-84P4_elMJV3M-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KPLJRe6NsnJXJIh2JE4_" name="RayCluster">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8oo03Hca-hV4blh5Ij14-1" value="RayCluster Startup Chart" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="1250" height="420" as="geometry">
+            <mxRectangle x="40" y="20" width="60" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-2" value="mars/deploy/oscar/ray.py::RayCluster" style="swimlane;html=1;startSize=20;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-1">
+          <mxGeometry y="20" width="250" height="400" as="geometry">
+            <mxRectangle y="20" width="30" height="970" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-3" value="RayCluster::__init__" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-2">
+          <mxGeometry x="40" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-4" value="RayCluster::start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-2">
+          <mxGeometry x="40" y="120" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-5" value="mars/deploy/oscar/pool.py" style="swimlane;html=1;startSize=20;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-1">
+          <mxGeometry x="250" y="20" width="250" height="400" as="geometry">
+            <mxRectangle x="250" y="20" width="30" height="970" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-6" value="create_supervisor_actor_pool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-5">
+          <mxGeometry x="40" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-7" value="create_worker_actor_pool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-5">
+          <mxGeometry x="40" y="320" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-8" value="mars/oscar/api.py" style="swimlane;html=1;startSize=20;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-1">
+          <mxGeometry x="500" y="20" width="250" height="400" as="geometry">
+            <mxRectangle x="500" y="20" width="30" height="970" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-9" value="create_actor_pool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-8">
+          <mxGeometry x="40" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-10" value="create_actor_pool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-8">
+          <mxGeometry x="40" y="320" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8oo03Hca-hV4blh5Ij14-1" source="8oo03Hca-hV4blh5Ij14-6" target="8oo03Hca-hV4blh5Ij14-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-12" value="mars/oscar/backends/ray/backend.py" style="swimlane;html=1;startSize=20;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-1">
+          <mxGeometry x="750" y="20" width="250" height="400" as="geometry">
+            <mxRectangle x="750" y="20" width="30" height="970" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-13" value="" style="edgeStyle=none;html=1;" edge="1" parent="8oo03Hca-hV4blh5Ij14-12" source="8oo03Hca-hV4blh5Ij14-14" target="8oo03Hca-hV4blh5Ij14-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-14" value="RayAcrtorBackend::create_actor_pool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-12">
+          <mxGeometry x="15" y="200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-15" value="RayActorBackend::create_actor_pool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-12">
+          <mxGeometry x="15" y="320" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-16" value="RayAcrtorBackend::_create_ray_pools" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-12">
+          <mxGeometry x="15" y="260" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8oo03Hca-hV4blh5Ij14-12" source="8oo03Hca-hV4blh5Ij14-15" target="8oo03Hca-hV4blh5Ij14-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8oo03Hca-hV4blh5Ij14-1" source="8oo03Hca-hV4blh5Ij14-9" target="8oo03Hca-hV4blh5Ij14-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8oo03Hca-hV4blh5Ij14-1" source="8oo03Hca-hV4blh5Ij14-7" target="8oo03Hca-hV4blh5Ij14-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="8oo03Hca-hV4blh5Ij14-1" source="8oo03Hca-hV4blh5Ij14-10" target="8oo03Hca-hV4blh5Ij14-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-21" value="" style="html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.171;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;" edge="1" parent="8oo03Hca-hV4blh5Ij14-1" source="8oo03Hca-hV4blh5Ij14-4" target="8oo03Hca-hV4blh5Ij14-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-22" value="" style="html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.171;exitY=1.075;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;" edge="1" parent="8oo03Hca-hV4blh5Ij14-1" source="8oo03Hca-hV4blh5Ij14-4" target="8oo03Hca-hV4blh5Ij14-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79.06999999999994" y="190" as="sourcePoint" />
+            <mxPoint x="90" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="69" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-23" value="&lt;span&gt;&lt;b&gt;mars/oscar/backends/ray/pool.py&lt;/b&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=20;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1040" y="40" width="250" height="400" as="geometry">
+            <mxRectangle x="1040" y="40" width="30" height="970" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-24" value="RayMainActorPool::create_sub_pool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-23">
+          <mxGeometry x="20" y="200" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="8oo03Hca-hV4blh5Ij14-16" target="8oo03Hca-hV4blh5Ij14-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-26" value="ray.remote(RaySubPool)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="240" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-27" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8oo03Hca-hV4blh5Ij14-24" target="8oo03Hca-hV4blh5Ij14-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-28" value="ray.remote(RayMainPool)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="300" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-29" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8oo03Hca-hV4blh5Ij14-16" target="8oo03Hca-hV4blh5Ij14-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="390" as="sourcePoint" />
+            <mxPoint x="1065" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-30" value="mars/deploy/oscar/service.py" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="250" height="240" as="geometry">
+            <mxRectangle x="250" y="20" width="30" height="970" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-31" value="start_supervisor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-30">
+          <mxGeometry x="40" y="50" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-32" value="start_worker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-30">
+          <mxGeometry x="40" y="170" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-33" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="8oo03Hca-hV4blh5Ij14-34" target="8oo03Hca-hV4blh5Ij14-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-34" value="ClusterStarteActor::start_worker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="610" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-35" value="" style="html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.171;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;" edge="1" parent="1" source="8oo03Hca-hV4blh5Ij14-4" target="8oo03Hca-hV4blh5Ij14-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.06999999999994" y="213" as="sourcePoint" />
+            <mxPoint x="140" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-36" value="mars/services/core.py" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="540" y="440" width="250" height="240" as="geometry">
+            <mxRectangle x="250" y="20" width="30" height="970" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-37" value="start_services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oo03Hca-hV4blh5Ij14-36">
+          <mxGeometry x="50" y="110" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="8oo03Hca-hV4blh5Ij14-31" target="8oo03Hca-hV4blh5Ij14-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-39" value="" style="html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.171;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="8oo03Hca-hV4blh5Ij14-4" target="8oo03Hca-hV4blh5Ij14-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="200" as="sourcePoint" />
+            <mxPoint x="340" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oo03Hca-hV4blh5Ij14-40" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8oo03Hca-hV4blh5Ij14-32" target="8oo03Hca-hV4blh5Ij14-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="580" y="630" as="targetPoint" />
           </mxGeometry>
