@@ -1,3 +1,3 @@
-# daily
+# Daily notes
 
-Some daily records.
+Some daily notes.
