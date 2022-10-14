@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T09:03:14.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="g_-95PcEdwIvyrWWf8yX" version="20.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-14T09:18:05.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5uq5RsRX1ydbMVKb1Eo4" version="20.2.7" type="github" pages="3">
   <diagram name="LocalCluster" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1666" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -159,7 +159,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KPLJRe6NsnJXJIh2JE4_" name="RayCluster">
-    <mxGraphModel dx="1666" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1398" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -324,23 +324,40 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P04dbrXsWMbO-FA7WfWQ" name="Tile">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1398" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sH0q_Ao7Pek1BR2wzIo9-1" value="Generate a ChunkGraph From a TileableGraph" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="720" height="610" as="geometry" />
+          <mxGeometry x="80" y="40" width="900" height="610" as="geometry" />
         </mxCell>
-        <mxCell id="sH0q_Ao7Pek1BR2wzIo9-2" value="Lane 1" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
-          <mxGeometry y="20" width="240" height="590" as="geometry" />
-        </mxCell>
-        <mxCell id="sH0q_Ao7Pek1BR2wzIo9-3" value="Lane 2" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
-          <mxGeometry x="240" y="20" width="240" height="590" as="geometry" />
-        </mxCell>
-        <mxCell id="sH0q_Ao7Pek1BR2wzIo9-4" value="Lane 3" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
-          <mxGeometry x="480" y="20" width="240" height="590" as="geometry">
-            <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
+        <mxCell id="sH0q_Ao7Pek1BR2wzIo9-2" value="mars/services/task/supervisor/processor.py" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
+          <mxGeometry y="20" width="300" height="590" as="geometry">
+            <mxRectangle y="20" width="40" height="590" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0uM7Jnc1aksydKQ5aDz--1" value="TaskProcessor::_iter_stage_chunk_graph" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-2">
+          <mxGeometry x="30" y="60" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sH0q_Ao7Pek1BR2wzIo9-3" value="mars/services/task/supervisor/preprocessor.py" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
+          <mxGeometry x="300" y="20" width="300" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="mhBTToQBzphmjxgl1Cz2-1" value="TaskPreprocessor::tile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-3">
+          <mxGeometry x="30" y="60" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sH0q_Ao7Pek1BR2wzIo9-4" value="mars/core/graph/builder/chunk.py" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
+          <mxGeometry x="600" y="20" width="300" height="590" as="geometry">
+            <mxRectangle x="600" y="20" width="40" height="590" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LkoCtvTLl0B1qaWHFRs-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sH0q_Ao7Pek1BR2wzIo9-4" source="mhBTToQBzphmjxgl1Cz2-2" target="4LkoCtvTLl0B1qaWHFRs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhBTToQBzphmjxgl1Cz2-2" value="ChunkGraphBuilder::__init__" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-4">
+          <mxGeometry x="30" y="60" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4LkoCtvTLl0B1qaWHFRs-1" value="ChunkGraphBuilder::build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-4">
+          <mxGeometry x="30" y="140" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
