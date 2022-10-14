@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T10:02:00.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xCfn3gho5ybzMXSeXRIg" version="20.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-14T10:06:58.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="uYIlDwh6CEC_VWm2_XJ-" version="20.2.7" type="github" pages="3">
   <diagram name="LocalCluster" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1666" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -324,17 +324,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P04dbrXsWMbO-FA7WfWQ" name="Tile">
-    <mxGraphModel dx="1398" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1398" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sH0q_Ao7Pek1BR2wzIo9-1" value="Generate a ChunkGraph From a TileableGraph" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="1500" height="740" as="geometry">
+          <mxGeometry x="80" y="40" width="1500" height="800" as="geometry">
             <mxRectangle x="80" y="40" width="310" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sH0q_Ao7Pek1BR2wzIo9-2" value="mars/services/task/supervisor/processor.py" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
-          <mxGeometry y="20" width="300" height="720" as="geometry">
+          <mxGeometry y="20" width="300" height="780" as="geometry">
             <mxRectangle y="20" width="40" height="590" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -342,7 +342,7 @@
           <mxGeometry x="30" y="60" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sH0q_Ao7Pek1BR2wzIo9-3" value="mars/services/task/supervisor/preprocessor.py" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
-          <mxGeometry x="300" y="20" width="300" height="720" as="geometry">
+          <mxGeometry x="300" y="20" width="300" height="780" as="geometry">
             <mxRectangle x="300" y="20" width="40" height="590" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -383,9 +383,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZqoH1TErKsCE2qQfmmIv-4" value="prune_chunk_graph" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-3">
-          <mxGeometry x="30" y="660" width="240" height="40" as="geometry" />
+          <mxGeometry x="20" y="700" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZqoH1TErKsCE2qQfmmIv-5" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;elbow=vertical;" edge="1" parent="sH0q_Ao7Pek1BR2wzIo9-3">
+        <mxCell id="ZqoH1TErKsCE2qQfmmIv-5" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;elbow=vertical;" edge="1" parent="sH0q_Ao7Pek1BR2wzIo9-3" target="ZqoH1TErKsCE2qQfmmIv-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="420" as="sourcePoint" />
             <mxPoint x="50" y="660" as="targetPoint" />
@@ -394,8 +394,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZqoH1TErKsCE2qQfmmIv-6" value="CancellableTiler::_tile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-3">
+          <mxGeometry x="60" y="620" width="210" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="sH0q_Ao7Pek1BR2wzIo9-4" value="mars/core/graph/builder/chunk.py" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
-          <mxGeometry x="600" y="20" width="300" height="720" as="geometry">
+          <mxGeometry x="600" y="20" width="300" height="780" as="geometry">
             <mxRectangle x="340" y="20" width="40" height="590" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -418,7 +421,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4LkoCtvTLl0B1qaWHFRs-11" value="mars/core/entity/tileables.py" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
-          <mxGeometry x="900" y="20" width="300" height="720" as="geometry">
+          <mxGeometry x="900" y="20" width="300" height="780" as="geometry">
             <mxRectangle x="340" y="20" width="40" height="590" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -444,7 +447,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4LkoCtvTLl0B1qaWHFRs-34" value="op" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
-          <mxGeometry x="1200" y="20" width="300" height="720" as="geometry">
+          <mxGeometry x="1200" y="20" width="300" height="780" as="geometry">
             <mxRectangle x="340" y="20" width="40" height="590" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -461,6 +464,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1180" y="590" as="sourcePoint" />
             <mxPoint x="1250" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqoH1TErKsCE2qQfmmIv-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="458" y="560" as="sourcePoint" />
+            <mxPoint x="458" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
