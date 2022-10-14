@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T11:10:52.915Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="rBHHEkDazfTcJVsbH5lb" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-14T09:03:14.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="g_-95PcEdwIvyrWWf8yX" version="20.2.7" type="github" pages="3">
   <diagram name="LocalCluster" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
-    <mxGraphModel dx="1186" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1666" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,7 +159,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KPLJRe6NsnJXJIh2JE4_" name="RayCluster">
-    <mxGraphModel dx="1186" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1666" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -318,6 +318,28 @@
         <mxCell id="8oo03Hca-hV4blh5Ij14-80" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8oo03Hca-hV4blh5Ij14-72" target="8oo03Hca-hV4blh5Ij14-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="580" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P04dbrXsWMbO-FA7WfWQ" name="Tile">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sH0q_Ao7Pek1BR2wzIo9-1" value="Generate a ChunkGraph From a TileableGraph" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="720" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="sH0q_Ao7Pek1BR2wzIo9-2" value="Lane 1" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
+          <mxGeometry y="20" width="240" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="sH0q_Ao7Pek1BR2wzIo9-3" value="Lane 2" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
+          <mxGeometry x="240" y="20" width="240" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="sH0q_Ao7Pek1BR2wzIo9-4" value="Lane 3" style="swimlane;startSize=20;" vertex="1" parent="sH0q_Ao7Pek1BR2wzIo9-1">
+          <mxGeometry x="480" y="20" width="240" height="590" as="geometry">
+            <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
