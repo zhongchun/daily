@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T13:45:19.102Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ZVQXykTwV7_FWYHO4-MX" version="20.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-29T13:50:15.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Yx6Xsm4sVpdnUIExiKRQ" version="20.4.2" type="github" pages="3">
   <diagram name="LocalCluster" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1186" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -334,7 +334,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P04dbrXsWMbO-FA7WfWQ" name="Tile">
-    <mxGraphModel dx="2225" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -503,6 +503,9 @@
         <mxCell id="dCLsa6d0VdX2S4WscsAF-2" value="mars/tensor/random/core.py" style="swimlane;startSize=20;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-1">
           <mxGeometry y="20" width="300" height="530" as="geometry" />
         </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-25" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-2">
+          <mxGeometry x="20" y="120" width="260" height="380" as="geometry" />
+        </mxCell>
         <mxCell id="dCLsa6d0VdX2S4WscsAF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-2" source="dCLsa6d0VdX2S4WscsAF-6" target="dCLsa6d0VdX2S4WscsAF-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -548,13 +551,39 @@
         <mxCell id="dCLsa6d0VdX2S4WscsAF-4" value="mars/tensor/operands.py" style="swimlane;startSize=20;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-1">
           <mxGeometry x="600" y="20" width="300" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="dCLsa6d0VdX2S4WscsAF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-1" source="dCLsa6d0VdX2S4WscsAF-16" target="dCLsa6d0VdX2S4WscsAF-18">
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-4" source="dCLsa6d0VdX2S4WscsAF-23" target="dCLsa6d0VdX2S4WscsAF-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dCLsa6d0VdX2S4WscsAF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-1" source="dCLsa6d0VdX2S4WscsAF-16" target="dCLsa6d0VdX2S4WscsAF-20">
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-23" value="TensorRandomOperandMixin::new_tensors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-4">
+          <mxGeometry x="20" y="450" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-4" source="dCLsa6d0VdX2S4WscsAF-26" target="dCLsa6d0VdX2S4WscsAF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-26" value="TensorRandomOperandMixin::new_tileables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-4">
+          <mxGeometry x="20" y="370" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-4" source="dCLsa6d0VdX2S4WscsAF-28" target="dCLsa6d0VdX2S4WscsAF-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-28" value="TensorRandomOperandMixin::_new_tileables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-4">
+          <mxGeometry x="20" y="300" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-30" value="TensorRandomOperandMixin::_create_tileable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-4">
+          <mxGeometry x="20" y="220" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-1" source="dCLsa6d0VdX2S4WscsAF-16" target="dCLsa6d0VdX2S4WscsAF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-1" source="dCLsa6d0VdX2S4WscsAF-16" target="dCLsa6d0VdX2S4WscsAF-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="500" as="sourcePoint" />
             <mxPoint x="360" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-1" target="dCLsa6d0VdX2S4WscsAF-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dCLsa6d0VdX2S4WscsAF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dCLsa6d0VdX2S4WscsAF-5" target="dCLsa6d0VdX2S4WscsAF-6">
