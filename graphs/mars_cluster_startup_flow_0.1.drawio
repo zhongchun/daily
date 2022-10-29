@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T13:28:02.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="q4-CNBhNKObRv9ESRJ73" version="20.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-29T13:31:00.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="IuG0o-W_Qmt9FxgAKt0V" version="20.4.2" type="github" pages="3">
   <diagram name="LocalCluster" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1186" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -509,8 +509,20 @@
         <mxCell id="dCLsa6d0VdX2S4WscsAF-6" value="TensorRandomOperandMixin::tile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-2">
           <mxGeometry x="30" y="60" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-2" source="dCLsa6d0VdX2S4WscsAF-8" target="dCLsa6d0VdX2S4WscsAF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dCLsa6d0VdX2S4WscsAF-8" value="TileableOperandMixin::new_chunk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-2">
-          <mxGeometry x="30" y="180" width="240" height="40" as="geometry" />
+          <mxGeometry x="30" y="140" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-2" source="dCLsa6d0VdX2S4WscsAF-10" target="dCLsa6d0VdX2S4WscsAF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-10" value="TileableOperandMixin::new_chunks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-2">
+          <mxGeometry x="30" y="220" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-12" value="TensorRandomOperandMixin::_new_chunks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-2">
+          <mxGeometry x="30" y="300" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dCLsa6d0VdX2S4WscsAF-3" value="Lane 2" style="swimlane;startSize=20;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-1">
           <mxGeometry x="300" y="20" width="300" height="500" as="geometry" />
