@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T13:55:04.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5VFDPk3W5Wi7ro1flWhu" version="20.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-29T14:06:37.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="PCzca5aHBfDHPKPI6Qat" version="20.4.2" type="github" pages="3">
   <diagram name="LocalCluster" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1186" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -539,6 +539,9 @@
         <mxCell id="dCLsa6d0VdX2S4WscsAF-16" value="TileableOperandMixin::_create_chunk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-2">
           <mxGeometry x="30" y="450" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-37" value="TensorRandint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-2">
+          <mxGeometry x="95" y="500" width="110" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="dCLsa6d0VdX2S4WscsAF-3" value="mars/tensor/core.py" style="swimlane;startSize=20;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-1">
           <mxGeometry x="300" y="20" width="300" height="540" as="geometry" />
         </mxCell>
@@ -580,6 +583,9 @@
         </mxCell>
         <mxCell id="dCLsa6d0VdX2S4WscsAF-30" value="TensorRandomOperandMixin::_create_tileable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-4">
           <mxGeometry x="20" y="220" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCLsa6d0VdX2S4WscsAF-38" value="TensorRandint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="dCLsa6d0VdX2S4WscsAF-4">
+          <mxGeometry x="95" y="500" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dCLsa6d0VdX2S4WscsAF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="dCLsa6d0VdX2S4WscsAF-1" source="dCLsa6d0VdX2S4WscsAF-16" target="dCLsa6d0VdX2S4WscsAF-18">
           <mxGeometry relative="1" as="geometry" />
