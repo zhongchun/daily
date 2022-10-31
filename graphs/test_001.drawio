@@ -1,0 +1,163 @@
+<mxfile host="65bd71144e" scale="20" border="0">
+    <diagram id="7XnKf8vs7FnniciroX1y" name="Page-1">
+        <mxGraphModel dx="1618" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="41" value="Generate a ChunkGraph From a TileableGraph" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="40" width="1500" height="800" as="geometry">
+                        <mxRectangle x="80" y="40" width="310" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="mars/services/task/supervisor/processor.py" style="swimlane;startSize=20;" vertex="1" parent="41">
+                    <mxGeometry y="20" width="300" height="780" as="geometry">
+                        <mxRectangle y="20" width="40" height="590" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="TaskProcessor::_iter_stage_chunk_graph" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="42">
+                    <mxGeometry x="30" y="60" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="mars/services/task/supervisor/preprocessor.py" style="swimlane;startSize=20;" vertex="1" parent="41">
+                    <mxGeometry x="300" y="20" width="300" height="780" as="geometry">
+                        <mxRectangle x="300" y="20" width="40" height="590" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="TaskPreprocessor::tile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry x="30" y="60" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="CancellableTiler::__init__" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry x="100" y="140" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;elbow=vertical;" edge="1" parent="44" source="48" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="CancellableTiler::__iter__" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry x="30" y="220" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;elbow=vertical;" edge="1" parent="44" source="50" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="CancellableTiler::_iter_without_check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry x="30" y="300" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;" edge="1" parent="44" source="52" target="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="CancellableTiler::_iter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry x="30" y="380" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;" edge="1" parent="44" source="54" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="CancellableTiler::_tile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry x="60" y="460" width="210" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="CancellableTiler::_tile_handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry x="100" y="540" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;" edge="1" parent="44" source="46" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="prune_chunk_graph" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry x="20" y="700" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;elbow=vertical;" edge="1" parent="44" target="57">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50" y="420" as="sourcePoint"/>
+                        <mxPoint x="50" y="660" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="50" y="620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="mars/core/graph/builder/chunk.py" style="swimlane;startSize=20;" vertex="1" parent="41">
+                    <mxGeometry x="600" y="20" width="300" height="780" as="geometry">
+                        <mxRectangle x="340" y="20" width="40" height="590" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="59" source="61" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="ChunkGraphBuilder::__init__" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry x="30" y="60" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="ChunkGraphBuilder::build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry x="30" y="140" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="ChunkGraphBuilder::_build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry x="30" y="220" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="59" source="62" target="63">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="110" as="sourcePoint"/>
+                        <mxPoint x="160" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="ChunkGraphBuilder::_add_nodes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry x="40" y="620" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="mars/core/entity/tileables.py" style="swimlane;startSize=20;" vertex="1" parent="41">
+                    <mxGeometry x="900" y="20" width="300" height="780" as="geometry">
+                        <mxRectangle x="340" y="20" width="40" height="590" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="OperandTilesHandler::tile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="66">
+                    <mxGeometry x="30" y="540" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=6;endSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#F19C99;dashed=1;strokeColor=#EA6B66;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="41" source="61" target="46">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="330" as="sourcePoint"/>
+                        <mxPoint x="440" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=6;endSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontColor=#F19C99;dashed=1;strokeColor=#EA6B66;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="41" source="46" target="61">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="640" y="110" as="sourcePoint"/>
+                        <mxPoint x="480" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;elbow=vertical;" edge="1" parent="41" source="63" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;elbow=vertical;" edge="1" parent="41" source="55" target="67">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="op" style="swimlane;startSize=20;" vertex="1" parent="41">
+                    <mxGeometry x="1200" y="20" width="300" height="780" as="geometry">
+                        <mxRectangle x="340" y="20" width="40" height="590" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="TensorRandomOperandMixin::tile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="72">
+                    <mxGeometry x="30" y="500" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="TensorReductionMixin::tile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="72">
+                    <mxGeometry x="30" y="580" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#EA6B66;" edge="1" parent="41" source="67" target="73">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#EA6B66;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="41" source="67" target="74">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1180" y="590" as="sourcePoint"/>
+                        <mxPoint x="1250" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;" edge="1" parent="41" source="43" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;" edge="1" parent="41" source="45" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#F19C99;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=6;endSize=6;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" target="65">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="458" y="560" as="sourcePoint"/>
+                        <mxPoint x="458" y="680" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="458" y="630"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
