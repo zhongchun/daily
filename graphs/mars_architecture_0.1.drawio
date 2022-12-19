@@ -1,285 +1,299 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T07:13:49.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="H6bg_17VgnruI1s2U-CD" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T10:05:10.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="vn3VJdrxhAvxSXFQ2Q0S" version="20.6.0" type="github">
   <diagram id="dz3-tVhpZJMuDpB_5Guo" name="main components">
-    <mxGraphModel dx="1666" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1794" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yILfTudVtOAmyqblVjQe-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="445" width="860" height="380" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="445" width="860" height="385" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="30" y="10" width="1070" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="210" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-4" value="NodeInfoCollectorActor" style="rounded=0;whiteSpace=wrap;html=1;container=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="70" width="190" height="50" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-4" value="NodeInfoCollectorActor" style="rounded=0;whiteSpace=wrap;html=1;container=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="190" height="50" as="geometry">
+            <mxRectangle x="50" y="70" width="160" height="20" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-5" value="SupervisorPeerLocatorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-5" value="SupervisorPeerLocatorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="120" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-6" value="NodeInfoUploaderActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-6" value="NodeInfoUploaderActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="170" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-7" value="NodeAllocatorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-7" value="NodeAllocatorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="220" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-8" value="ProcessInfoManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-8" value="ProcessInfoManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="270" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-9" value="ProcessInfoActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-9" value="ProcessInfoActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="320" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-10" value="ClusterSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-10" value="ClusterSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="250" y="40" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-12" value="SessionSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-12" value="SessionSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="40" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-13" value="SessionActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-13" value="SessionActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="70" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="460" y="355" width="210" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-15" value="StorageSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-15" value="StorageSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" y="355" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="250" y="130" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-17" value="MetaSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-17" value="MetaSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="130" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-18" value="MetaStoreManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-18" value="MetaStoreManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="170" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-19" value="MetaStoreActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-19" value="MetaStoreActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="220" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="250" y="280" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-21" value="LifecycleTrackerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-21" value="LifecycleTrackerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="320" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-22" value="LifecycleSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-22" value="LifecycleSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="280" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="460" y="40" width="210" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-24" value="GlobalResourceManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-24" value="GlobalResourceManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="70" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-25" value="AutoscalerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-25" value="AutoscalerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="120" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-26" value="AssignerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-26" value="AssignerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="170" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-27" value="SubtaskQueueingActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-27" value="SubtaskQueueingActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="220" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-28" value="SubtaskManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-28" value="SubtaskManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="270" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-29" value="SchedulingSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-29" value="SchedulingSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" y="40" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="460" y="330" width="210" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-31" value="SubtaskSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-31" value="SubtaskSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" y="330" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="670" y="40" width="210" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-33" value="TaskSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-33" value="TaskSupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="40" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-34" value="TaskConfigurationActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-34" value="TaskConfigurationActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="70" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-35" value="TaskManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-35" value="TaskManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="120" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="670" y="230" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-37" value="MutableObjectManager&lt;br&gt;SupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-37" value="MutableObjectManager&lt;br&gt;SupervisorService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="672" y="239" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-38" value="MutableObjectManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-38" value="MutableObjectManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="270" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-39" value="MutableTensorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-39" value="MutableTensorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="320" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="210" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-41" value="ClusterWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-41" value="ClusterWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-42" value="WorkerSupervisorLocatorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-42" value="WorkerSupervisorLocatorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="560" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-43" value="NodeInfoUploaderActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-43" value="NodeInfoUploaderActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="510" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-44" value="ProcessInfoManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-44" value="ProcessInfoManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="610" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-45" value="ProcessInfoActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-45" value="ProcessInfoActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="660" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="250" y="480" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-47" value="SessionWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-47" value="SessionWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="480" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-48" value="CustomLogActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-48" value="CustomLogActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="510" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="250" y="570" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-50" value="MetaWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-50" value="MetaWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="570" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-51" value="WorkerMetaStoreManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-51" value="WorkerMetaStoreManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="600" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-52" value="WorkerMetaStoreActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-52" value="WorkerMetaStoreActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="650" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="460" y="480" width="210" height="190" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="480" width="210" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-54" value="StorageWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-54" value="StorageWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" y="480" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-55" value="StorageManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-55" value="StorageManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="510" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-56" value="DataManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-56" value="DataManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="560" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-57" value="StorageHandlerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-57" value="StorageHandlerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="610" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="30" y="880" width="410" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-59" value="StorageHandlerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="910" width="190" height="50" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-59" value="StorageHandlerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="910" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-60" value="SenderManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="960" width="190" height="50" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-60" value="SenderManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="960" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-61" value="ReceiverManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1010" width="190" height="50" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-61" value="ReceiverManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="1010" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-62" value="&lt;b&gt;SubPool&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-62" value="&lt;b&gt;SubPool&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="30" y="880" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="670" y="480" width="210" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-64" value="SchedulingWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-64" value="SchedulingWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="480" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-65" value="WorkerSlotManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-65" value="WorkerSlotManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="510" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-66" value="BandSlotManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-66" value="BandSlotManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="560" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-67" value="BandSlotControlActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-67" value="BandSlotControlActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="610" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-68" value="WorkerQuotaManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-68" value="WorkerQuotaManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="660" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-69" value="MemQuotaActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-69" value="MemQuotaActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="710" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-70" value="SubtaskExecutionActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-70" value="SubtaskExecutionActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="760" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-71" value="SubtaskProcessorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="960" width="160" height="50" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-71" value="SubtaskProcessorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="960" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-72" value="SubtaskRunnerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="910" width="190" height="50" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-72" value="SubtaskRunnerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="910" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-73" value="Supervisor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-73" value="Supervisor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="30" y="10" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-74" value="MainPool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-74" value="MainPool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="35" y="445" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-75" value="TaskProcessorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-75" value="TaskProcessorActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="170" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-76" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-76" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="880" y="40" width="210" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-77" value="ClusterStateActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-77" value="ClusterStateActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="70" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-78" value="WebActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-78" value="WebActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="140" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-79" value="Others" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-79" value="Others" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="880" y="40" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-80" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF0000;dashed=1;startArrow=classic;startFill=1;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="yILfTudVtOAmyqblVjQe-59" target="yILfTudVtOAmyqblVjQe-55">
+        <mxCell id="EZz30YnFPFfWLD88gsew-80" value="" style="endArrow=none;html=1;strokeColor=#FF00FF;dashed=1;startArrow=classic;startFill=1;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="EZz30YnFPFfWLD88gsew-55">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="860" as="sourcePoint" />
+            <mxPoint x="330" y="910" as="sourcePoint" />
             <mxPoint x="470" y="535" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="135" y="840" />
-              <mxPoint x="460" y="840" />
+              <mxPoint x="330" y="850" />
+              <mxPoint x="460" y="850" />
               <mxPoint x="460" y="535" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-81" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-81" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="40" y="720" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-82" value="TaskWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EZz30YnFPFfWLD88gsew-82" value="TaskWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="720" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="240" y="720" width="210" height="50" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="770" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-84" value="LifecycleWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="720" width="140" height="20" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-84" value="LifecycleWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="770" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-85" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="460" y="670" width="210" height="90" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-85" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="720" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-86" value="SubtaskWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="460" y="670" width="140" height="20" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-86" value="SubtaskWorkerService" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="720" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-87" value="SubtaskRunnerManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="700" width="190" height="50" as="geometry" />
+        <mxCell id="EZz30YnFPFfWLD88gsew-87" value="SubtaskRunnerManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yILfTudVtOAmyqblVjQe-88" value="" style="edgeStyle=elbowEdgeStyle;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF33FF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yILfTudVtOAmyqblVjQe-87" target="yILfTudVtOAmyqblVjQe-72">
+        <mxCell id="EZz30YnFPFfWLD88gsew-88" value="" style="html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF0080;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=elbowEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="EZz30YnFPFfWLD88gsew-87" target="EZz30YnFPFfWLD88gsew-72">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="660" y="940" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="565" y="850" />
+              <mxPoint x="240" y="840" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EZz30YnFPFfWLD88gsew-89" value="StorageQuotaActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="660" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EZz30YnFPFfWLD88gsew-90" value="SpillManagerActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="710" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EZz30YnFPFfWLD88gsew-91" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="425" y="975" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EZz30YnFPFfWLD88gsew-92" value="For GPU bands" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1000" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
