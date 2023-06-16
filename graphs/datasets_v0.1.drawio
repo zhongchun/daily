@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T02:25:07.206Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Nqr74vv22g0hZr31sLOp" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T02:25:11.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Y5P_lhehMlIw4fzfrpsZ" version="21.4.0" type="github">
   <diagram name="第 1 页" id="HeD2XpfvVx3oqUgyRu6t">
     <mxGraphModel dx="1026" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,9 +52,6 @@
         </mxCell>
         <mxCell id="QRaLm_NtZNBAzQd4hOMB-7" value="&lt;br&gt;DatasetBuilder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QRaLm_NtZNBAzQd4hOMB-9" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;ol style=&quot;margin: 0; padding-left: 23px&quot; class=&quot;ne-ol&quot;&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;u656de89a&quot;&gt;数据集 meta 文件格式定义&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;u6d68ec3f&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;数据集 meta 文件准备，上传到 mediabase 平台&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;ud2d0ec64&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;通过 mediabase 平台获取 数据集 meta 文件&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;u0ebe533a&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;根据 meta 文件，读取数据&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="40" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="QRaLm_NtZNBAzQd4hOMB-11" value="OSS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="440" width="180" height="90" as="geometry" />
