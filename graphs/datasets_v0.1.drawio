@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T14:23:52.329Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TkBdSt4b6bglKBve5dT6" version="21.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-18T14:27:55.444Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YyRZkRGPOy_IJ8NNDgfM" version="21.4.0" type="github" pages="3">
   <diagram name="work_flow" id="HeD2XpfvVx3oqUgyRu6t">
     <mxGraphModel dx="1674" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -209,9 +209,9 @@
             <mxPoint x="900" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AY3lOnRVY60D70Samr1y-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="1210" width="450" height="360" as="geometry">
-            <mxRectangle x="120" y="120" width="40" height="60" as="alternateBounds" />
+        <mxCell id="AY3lOnRVY60D70Samr1y-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="160" y="1640" width="40" height="60" as="geometry">
+            <mxRectangle x="160" y="1210" width="450" height="360" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AY3lOnRVY60D70Samr1y-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" parent="AY3lOnRVY60D70Samr1y-1" source="AY3lOnRVY60D70Samr1y-9" target="AY3lOnRVY60D70Samr1y-15" edge="1">
@@ -276,9 +276,9 @@
         <mxCell id="AY3lOnRVY60D70Samr1y-20" value="" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="AY3lOnRVY60D70Samr1y-17" vertex="1">
           <mxGeometry x="360" y="30" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-21" value="load_dataset" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="200" y="1080" width="70" height="30" as="geometry">
-            <mxRectangle x="200" y="800" width="780" height="480" as="alternateBounds" />
+        <mxCell id="vbrVku70WViUSuTsnbC4-21" value="load_dataset" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1080" width="780" height="480" as="geometry">
+            <mxRectangle x="200" y="1080" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-22" value="datasets/src/datasets/load.py" style="swimlane;startSize=20;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-21">
