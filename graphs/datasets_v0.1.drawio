@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T14:32:00.697Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MIx3F-vQX3k759fZa0TU" version="21.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-18T14:36:21.018Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="i7A3FFl6qUtLOXINm4W0" version="21.4.0" type="github" pages="3">
   <diagram name="work_flow" id="HeD2XpfvVx3oqUgyRu6t">
     <mxGraphModel dx="1674" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,11 +69,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zePvoGkPihtZbv989f-L" name="lane_diagram">
-    <mxGraphModel dx="791" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="945" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mMqyIZjx6p4jjcFKXIat-1" value="load_dataset" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
+        <mxCell id="mMqyIZjx6p4jjcFKXIat-1" value="load_dataset()" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="120" width="1180" height="780" as="geometry">
             <mxRectangle x="230" y="120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -288,66 +288,54 @@
         <mxCell id="AY3lOnRVY60D70Samr1y-20" value="" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="AY3lOnRVY60D70Samr1y-17" vertex="1">
           <mxGeometry x="360" y="30" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-21" value="load_dataset" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1080" width="780" height="480" as="geometry">
+        <mxCell id="vbrVku70WViUSuTsnbC4-21" value="MsDataset.load()" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1080" width="850" height="480" as="geometry">
             <mxRectangle x="200" y="1080" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-22" value="datasets/src/datasets/load.py" style="swimlane;startSize=20;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-21">
-          <mxGeometry y="20" width="250" height="460" as="geometry" />
+        <mxCell id="vbrVku70WViUSuTsnbC4-22" value="modelscope/msdatasets/ms_dataset.py" style="swimlane;startSize=20;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-21">
+          <mxGeometry y="20" width="320" height="460" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vbrVku70WViUSuTsnbC4-22" source="vbrVku70WViUSuTsnbC4-24" target="vbrVku70WViUSuTsnbC4-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-24" value="load_dataset()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-22">
-          <mxGeometry x="10" y="40" width="230" height="40" as="geometry" />
+        <mxCell id="vbrVku70WViUSuTsnbC4-24" value="MsDataset.load()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-22">
+          <mxGeometry x="20" y="40" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vbrVku70WViUSuTsnbC4-22" source="vbrVku70WViUSuTsnbC4-26" target="vbrVku70WViUSuTsnbC4-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-26" value="builder_instance = load_dataset_builder()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-22">
-          <mxGeometry x="10" y="140" width="230" height="40" as="geometry" />
+        <mxCell id="vbrVku70WViUSuTsnbC4-26" value="dataset_inst = RemoteDataLoaderManager().load_dataset()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-22">
+          <mxGeometry x="20" y="140" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vbrVku70WViUSuTsnbC4-22" source="vbrVku70WViUSuTsnbC4-28" target="vbrVku70WViUSuTsnbC4-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-28" value="builder_instance.download_and_prepare()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-22">
-          <mxGeometry x="10" y="240" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-29" value="builder_instance.as_dataset()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-22">
-          <mxGeometry x="10" y="340" width="230" height="40" as="geometry" />
+        <mxCell id="vbrVku70WViUSuTsnbC4-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-22">
+          <mxGeometry x="20" y="240" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-30" value="datasets/src/datasets/load.py" style="swimlane;startSize=20;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-21">
-          <mxGeometry x="250" y="20" width="290" height="460" as="geometry" />
+          <mxGeometry x="320" y="20" width="290" height="460" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vbrVku70WViUSuTsnbC4-30" source="vbrVku70WViUSuTsnbC4-32" target="vbrVku70WViUSuTsnbC4-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-32" value="dataset_module_factory()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-30">
+        <mxCell id="vbrVku70WViUSuTsnbC4-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-30">
           <mxGeometry x="30" y="140" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vbrVku70WViUSuTsnbC4-30" source="vbrVku70WViUSuTsnbC4-34" target="vbrVku70WViUSuTsnbC4-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-34" value="builder_cls = import_main_class()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-30">
+        <mxCell id="vbrVku70WViUSuTsnbC4-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-30">
           <mxGeometry x="30" y="240" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-35" value="builder_instance = builder_cls()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-30">
+        <mxCell id="vbrVku70WViUSuTsnbC4-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-30">
           <mxGeometry x="30" y="340" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-36" value="DatasetBuilder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vbrVku70WViUSuTsnbC4-30">
-          <mxGeometry x="30" y="380" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-37" value="Lane 3" style="swimlane;startSize=20;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-21">
-          <mxGeometry x="540" y="20" width="120" height="460" as="geometry" />
+          <mxGeometry x="610" y="20" width="120" height="460" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-38" value="Lane 3" style="swimlane;startSize=20;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-21">
-          <mxGeometry x="660" y="20" width="120" height="460" as="geometry" />
+          <mxGeometry x="730" y="20" width="120" height="460" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vbrVku70WViUSuTsnbC4-21" source="vbrVku70WViUSuTsnbC4-26" target="vbrVku70WViUSuTsnbC4-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="vbrVku70WViUSuTsnbC4-21" source="vbrVku70WViUSuTsnbC4-35" target="vbrVku70WViUSuTsnbC4-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-64" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vbrVku70WViUSuTsnbC4-58" target="vbrVku70WViUSuTsnbC4-63">
