@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T14:52:39.541Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VXnywd9V8K-IM9RusNPS" version="21.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-18T14:59:59.389Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Nyo6UeQ4Z3p3ADkSRqAm" version="21.4.0" type="github" pages="3">
   <diagram name="work_flow" id="HeD2XpfvVx3oqUgyRu6t">
     <mxGraphModel dx="1674" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zePvoGkPihtZbv989f-L" name="lane_diagram">
-    <mxGraphModel dx="945" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1220" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -289,7 +289,7 @@
           <mxGeometry x="360" y="30" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-21" value="MsDataset.load()" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1080" width="1220" height="520" as="geometry">
+          <mxGeometry x="200" y="1080" width="1840" height="520" as="geometry">
             <mxRectangle x="200" y="1080" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -349,8 +349,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vbrVku70WViUSuTsnbC4-38" value="Lane 4" style="swimlane;startSize=20;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-21">
-          <mxGeometry x="1080" y="20" width="140" height="500" as="geometry" />
+        <mxCell id="vbrVku70WViUSuTsnbC4-38" value="modelscope/msdatasets/meta/data_meta_manager.py" style="swimlane;startSize=20;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-21">
+          <mxGeometry x="1080" y="20" width="380" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="vbrVku70WViUSuTsnbC4-98" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vbrVku70WViUSuTsnbC4-38" source="vbrVku70WViUSuTsnbC4-95" target="vbrVku70WViUSuTsnbC4-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbrVku70WViUSuTsnbC4-95" value="DataMetaManager::fetch_meta_files()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-38">
+          <mxGeometry x="20" y="200" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vbrVku70WViUSuTsnbC4-97" value="DataMetaManager::parse_dataset_structure()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-38">
+          <mxGeometry x="20" y="280" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vbrVku70WViUSuTsnbC4-107" value="modelscope/msdatasets/data_files/data_files_manager.py" style="swimlane;startSize=20;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-21">
+          <mxGeometry x="1460" y="20" width="380" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="vbrVku70WViUSuTsnbC4-111" value="DataFilesManager::get_data_files_builder()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vbrVku70WViUSuTsnbC4-107">
+          <mxGeometry x="20" y="280" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vbrVku70WViUSuTsnbC4-21" source="vbrVku70WViUSuTsnbC4-24" target="vbrVku70WViUSuTsnbC4-32">
           <mxGeometry relative="1" as="geometry">
@@ -372,6 +387,28 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="900" y="110" as="sourcePoint" />
             <mxPoint x="900" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbrVku70WViUSuTsnbC4-96" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vbrVku70WViUSuTsnbC4-21" source="vbrVku70WViUSuTsnbC4-85" target="vbrVku70WViUSuTsnbC4-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbrVku70WViUSuTsnbC4-112" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vbrVku70WViUSuTsnbC4-21" source="vbrVku70WViUSuTsnbC4-97" target="vbrVku70WViUSuTsnbC4-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbrVku70WViUSuTsnbC4-114" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="vbrVku70WViUSuTsnbC4-21" source="vbrVku70WViUSuTsnbC4-111" target="vbrVku70WViUSuTsnbC4-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1650" y="380" />
+              <mxPoint x="1070" y="380" />
+              <mxPoint x="1070" y="280" />
+              <mxPoint x="975" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbrVku70WViUSuTsnbC4-115" value="CsvDatasetBuilder" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vbrVku70WViUSuTsnbC4-114">
+          <mxGeometry x="-0.1816" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-64" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vbrVku70WViUSuTsnbC4-58" target="vbrVku70WViUSuTsnbC4-63">
