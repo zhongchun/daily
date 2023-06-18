@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T14:12:58.316Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bZc6KNKmKrHTB9juuIS8" version="21.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-18T14:19:10.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NzBtCFWG4TpbMqMbqZJl" version="21.4.0" type="github" pages="3">
   <diagram name="work_flow" id="HeD2XpfvVx3oqUgyRu6t">
     <mxGraphModel dx="1674" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zePvoGkPihtZbv989f-L" name="lane_diagram">
-    <mxGraphModel dx="521" dy="303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1084" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,13 +133,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-54" value="builder_instance._save_info()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mMqyIZjx6p4jjcFKXIat-3">
-          <mxGeometry x="20" y="590" width="310" height="40" as="geometry" />
+          <mxGeometry x="20" y="600" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-56" value="builder_instance.download_post_processing_resources()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mMqyIZjx6p4jjcFKXIat-3">
           <mxGeometry x="20" y="670" width="310" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="vbrVku70WViUSuTsnbC4-72" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mMqyIZjx6p4jjcFKXIat-3" source="vbrVku70WViUSuTsnbC4-63" target="vbrVku70WViUSuTsnbC4-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vbrVku70WViUSuTsnbC4-63" value="split_generators = builder_instance._split_generators()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mMqyIZjx6p4jjcFKXIat-3">
           <mxGeometry x="200" y="480" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vbrVku70WViUSuTsnbC4-71" value="builder_instance._prepare_split()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mMqyIZjx6p4jjcFKXIat-3">
+          <mxGeometry x="200" y="540" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mMqyIZjx6p4jjcFKXIat-4" value="src/datasets/download/download_manager.py" style="swimlane;startSize=20;html=1;" parent="mMqyIZjx6p4jjcFKXIat-1" vertex="1">
           <mxGeometry x="830" y="20" width="390" height="740" as="geometry" />
