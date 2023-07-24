@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T14:00:17.124Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gxTvJC27rKxFo5rWhqDg" version="21.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-24T14:01:24.706Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-VaGn_8soLq7Ly-Pv4c3" version="21.5.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="v_0.1">
-    <mxGraphModel dx="2047" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2051" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -196,6 +196,9 @@
             <mxPoint x="640" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fP3P9Rz7hbLU_uRdi3sB-69" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fP3P9Rz7hbLU_uRdi3sB-26" target="fP3P9Rz7hbLU_uRdi3sB-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fP3P9Rz7hbLU_uRdi3sB-26" value="DataFilesManager" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="760" width="200" height="210" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
@@ -213,7 +216,7 @@
         <mxCell id="fP3P9Rz7hbLU_uRdi3sB-30" value="get_data_files_builder()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="fP3P9Rz7hbLU_uRdi3sB-26">
           <mxGeometry y="148" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fP3P9Rz7hbLU_uRdi3sB-31" value="fetach_data_files()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="fP3P9Rz7hbLU_uRdi3sB-26">
+        <mxCell id="fP3P9Rz7hbLU_uRdi3sB-31" value="fetch_data_files()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="fP3P9Rz7hbLU_uRdi3sB-26">
           <mxGeometry y="174" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fP3P9Rz7hbLU_uRdi3sB-32" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fP3P9Rz7hbLU_uRdi3sB-28" target="tjKZMXYK2fLk1N85MihW-23">
@@ -291,7 +294,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fP3P9Rz7hbLU_uRdi3sB-45" value="DataDownloadManager" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="855" width="200" height="60" as="geometry">
+          <mxGeometry x="680" y="850" width="200" height="60" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -302,7 +305,7 @@
           <mxGeometry y="34" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fP3P9Rz7hbLU_uRdi3sB-52" value="DataDownloadManager" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="960" y="800" width="200" height="300" as="geometry">
+          <mxGeometry x="960" y="795" width="200" height="300" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
