@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T03:56:15.034Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="P544ChOWkB8ogvmTx9eH" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-27T04:04:18.540Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="SSJ8Bfc__r-PyQGrfB8D" version="21.6.6" type="github" pages="2">
   <diagram name="第 1 页" id="VHiE4uWUK3bGSRmgRNOV">
     <mxGraphModel dx="1870" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Qjr5g9ErNz6De1QXAEth" name="第 2 页">
-    <mxGraphModel dx="2100" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1891" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -275,6 +275,32 @@
         </mxCell>
         <mxCell id="0f4FThh7Tm_beG0wRwqU-45" value="RecyclableEngineCoordinator::&lt;br&gt;startMediaBaseProcessing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="280" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4FThh7Tm_beG0wRwqU-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0f4FThh7Tm_beG0wRwqU-47" target="0f4FThh7Tm_beG0wRwqU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="747" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4FThh7Tm_beG0wRwqU-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="0f4FThh7Tm_beG0wRwqU-47" target="0f4FThh7Tm_beG0wRwqU-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4FThh7Tm_beG0wRwqU-47" value="EngineTaskPoolManager::&lt;br&gt;taskRecycle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="560" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4FThh7Tm_beG0wRwqU-52" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="0f4FThh7Tm_beG0wRwqU-50" target="0f4FThh7Tm_beG0wRwqU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="520" />
+              <mxPoint x="640" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0f4FThh7Tm_beG0wRwqU-50" value="EngineTaskPoolManager::&lt;br&gt;shutdownTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="560" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0f4FThh7Tm_beG0wRwqU-53" value="RecyclableEngineCoordinator::&lt;br&gt;stopProcessingExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="680" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
