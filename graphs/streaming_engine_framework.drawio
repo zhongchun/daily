@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T12:09:21.142Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ojnh72OGWmBZfWsIyEMP" version="22.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-11T12:11:41.545Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="fyNd0FzxQnOymjpfLBXz" version="22.0.4" type="github" pages="3">
   <diagram name="第 1 页" id="VHiE4uWUK3bGSRmgRNOV">
     <mxGraphModel dx="1892" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -380,8 +380,10 @@
         <mxCell id="dNWO5NIlt2O0Vma2SlEf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-1" target="dNWO5NIlt2O0Vma2SlEf-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-1" target="dNWO5NIlt2O0Vma2SlEf-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" target="dNWO5NIlt2O0Vma2SlEf-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="80" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dNWO5NIlt2O0Vma2SlEf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-1" target="dNWO5NIlt2O0Vma2SlEf-6">
           <mxGeometry relative="1" as="geometry" />
@@ -456,6 +458,18 @@
         </mxCell>
         <mxCell id="dNWO5NIlt2O0Vma2SlEf-29" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;RecyclableExecutorTaskRunner::run()&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="720" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-1" target="dNWO5NIlt2O0Vma2SlEf-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="160" as="sourcePoint" />
+            <mxPoint x="300" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-33" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt; font-family: &amp;quot;Meslo LG L DZ for Powerline&amp;quot;, monospace;&quot;&gt;taskExecutorBindMap.remove(taskId)&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="680" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-34" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt; font-family: &amp;quot;Meslo LG L DZ for Powerline&amp;quot;, monospace;&quot;&gt;taskExecutorBindMap.put(taskId, executor)&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="320" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
