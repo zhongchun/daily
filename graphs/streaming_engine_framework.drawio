@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T03:05:02.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="DZRdzcodBhchEU5n-kvc" version="22.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-12T03:18:26.153Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="u239RHcBAMIuW2xzdGPh" version="22.0.4" type="github" pages="3">
   <diagram name="router" id="VHiE4uWUK3bGSRmgRNOV">
     <mxGraphModel dx="1892" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,7 +112,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-1" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;cpp&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;ray::rmip::EngineExecutor&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-1" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;cpp&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;ray::rmip::EngineExecutor&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="305" y="420" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nJ76gcjRxf5y7iiIwIC3-4" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;TRProxy&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -132,13 +132,13 @@
             <mxPoint y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-10" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Helvetica&quot;&gt;ray::rmip::EngineExecutor&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-10" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Helvetica&quot;&gt;ray::rmip::EngineExecutor&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-120" y="520" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-12" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Helvetica&quot;&gt;MediaBaseProcessingWorker&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-12" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Helvetica&quot;&gt;MediaBaseProcessingWorker&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="90" y="520" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vtab6cQUvoI-Ft75zsSA-1" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;ray::rmip::ExecuteTaskWorker&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vtab6cQUvoI-Ft75zsSA-1" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;ray::rmip::ExecuteTaskWorker&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1f5e0;strokeColor=#8bb474;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="90" y="560" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
