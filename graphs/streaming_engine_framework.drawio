@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T03:46:21.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="4JLLUz7Fm4R30zvA5_6_" version="22.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-12T03:52:36.892Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="vejCAVhACiFuJp7ZdC2R" version="22.0.4" type="github" pages="3">
   <diagram name="router" id="VHiE4uWUK3bGSRmgRNOV">
     <mxGraphModel dx="2368" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Qjr5g9ErNz6De1QXAEth" name="scheduler">
-    <mxGraphModel dx="3079" dy="1088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2115" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -403,6 +403,9 @@
         </mxCell>
         <mxCell id="0f4FThh7Tm_beG0wRwqU-80" value="EngineCoordinator::&lt;br&gt;getLiveStatus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="990" y="200" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YvC-hIiEsVTVC0__SQEo-1" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;prepareWorkerLifecycleRunnerDeque&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="637" y="465" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
