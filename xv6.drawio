@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-12-31T10:13:04.045Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="SpX7OpGgLCLCNXStOjMn" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-31T10:14:52.133Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FaB1dIiZnONgvKuoC17_" version="22.1.16" type="github">
   <diagram name="第 1 页" id="H3iK7mH5yCvFYJRqQ1OO">
-    <mxGraphModel>
+    <mxGraphModel dx="1420" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="72-1KpBpTqp4JV26HE0D-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="72-1KpBpTqp4JV26HE0D-1" target="72-1KpBpTqp4JV26HE0D-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72-1KpBpTqp4JV26HE0D-9" value="kernel.ld" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="72-1KpBpTqp4JV26HE0D-3">
+          <mxGeometry x="-0.275" y="4" relative="1" as="geometry">
+            <mxPoint x="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72-1KpBpTqp4JV26HE0D-1" value="boot loader" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="72-1KpBpTqp4JV26HE0D-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="72-1KpBpTqp4JV26HE0D-2" target="72-1KpBpTqp4JV26HE0D-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72-1KpBpTqp4JV26HE0D-2" value="entry.S" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="72-1KpBpTqp4JV26HE0D-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="72-1KpBpTqp4JV26HE0D-4" target="72-1KpBpTqp4JV26HE0D-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72-1KpBpTqp4JV26HE0D-4" value="start.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="72-1KpBpTqp4JV26HE0D-6" value="main.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="72-1KpBpTqp4JV26HE0D-8" value="load the xv6 kernel into memory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
