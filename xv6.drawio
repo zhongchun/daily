@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-01-06T08:10:30.257Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="T2DLCYidtW2sLEmDBUCQ" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-06T08:11:44.902Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4LglymZgKf8zy3vUHd9R" version="22.1.17" type="github">
   <diagram name="第 1 页" id="H3iK7mH5yCvFYJRqQ1OO">
     <mxGraphModel dx="929" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aMMNmagPH8piCRl28nUM-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="720" width="560" height="190" as="geometry" />
+        </mxCell>
         <mxCell id="aMMNmagPH8piCRl28nUM-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="580" width="560" height="100" as="geometry" />
         </mxCell>
@@ -99,10 +102,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aMMNmagPH8piCRl28nUM-6" value="kvminithart()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aMMNmagPH8piCRl28nUM-8" value="procinit()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1020" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aMMNmagPH8piCRl28nUM-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="aMMNmagPH8piCRl28nUM-10" target="aMMNmagPH8piCRl28nUM-12">
           <mxGeometry relative="1" as="geometry" />
@@ -130,6 +133,9 @@
         </mxCell>
         <mxCell id="aMMNmagPH8piCRl28nUM-20" value="proc_mapstacks()&lt;br&gt;kernel/proc.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aMMNmagPH8piCRl28nUM-24" value="Create kernel page table" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="910" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
