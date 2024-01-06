@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-06T08:02:48.200Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Hz9kLuH9lZvMOZeAentB" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-06T08:10:30.257Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="T2DLCYidtW2sLEmDBUCQ" version="22.1.17" type="github">
   <diagram name="第 1 页" id="H3iK7mH5yCvFYJRqQ1OO">
     <mxGraphModel dx="929" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,6 +89,9 @@
         <mxCell id="aMMNmagPH8piCRl28nUM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="aMMNmagPH8piCRl28nUM-4" target="aMMNmagPH8piCRl28nUM-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="aMMNmagPH8piCRl28nUM-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aMMNmagPH8piCRl28nUM-4" target="aMMNmagPH8piCRl28nUM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aMMNmagPH8piCRl28nUM-4" value="kvminit()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="740" width="120" height="60" as="geometry" />
         </mxCell>
@@ -112,6 +115,21 @@
         </mxCell>
         <mxCell id="aMMNmagPH8piCRl28nUM-15" value="Allocate physical page" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="430" y="680" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aMMNmagPH8piCRl28nUM-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aMMNmagPH8piCRl28nUM-16" target="aMMNmagPH8piCRl28nUM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aMMNmagPH8piCRl28nUM-16" value="kvmmake()&lt;br&gt;kernel/vm.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aMMNmagPH8piCRl28nUM-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aMMNmagPH8piCRl28nUM-18" target="aMMNmagPH8piCRl28nUM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aMMNmagPH8piCRl28nUM-18" value="kvmmap()&lt;br&gt;kernle/vm.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aMMNmagPH8piCRl28nUM-20" value="proc_mapstacks()&lt;br&gt;kernel/proc.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
