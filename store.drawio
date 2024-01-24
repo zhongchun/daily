@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T11:41:53.643Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nX1MCoIyRxBYEXi3NlXb" version="22.1.21" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-24T02:51:49.481Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="pdV7mTkgcOrhzHV4_bNV" version="22.1.21" type="github" pages="2">
   <diagram name="第 1 页" id="gCpm9kKOXtNk7i_XtJKN">
     <mxGraphModel dx="1827" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,6 +193,27 @@
         </mxCell>
         <mxCell id="VOD0l9DfRYpNqS1jB4RV-11" value="jakarta.data&lt;br&gt;jakarta.data-api" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-250" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VOD0l9DfRYpNqS1jB4RV-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="740" as="sourcePoint" />
+            <mxPoint x="30" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOD0l9DfRYpNqS1jB4RV-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="740" as="sourcePoint" />
+            <mxPoint x="-120" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOD0l9DfRYpNqS1jB4RV-15" value="Eclipse NoSQL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="680" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VOD0l9DfRYpNqS1jB4RV-16" value="Jakarta NoSQL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="680" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VOD0l9DfRYpNqS1jB4RV-17" value="Jakarta Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="680" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
