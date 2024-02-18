@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-18T09:10:24.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="-PqGr_wisufdmoS4FfaF" version="23.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-18T09:22:51.645Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="17RyPbHyCRi0AkZ3vhHZ" version="23.1.1" type="github" pages="4">
   <diagram name="router" id="VHiE4uWUK3bGSRmgRNOV">
     <mxGraphModel dx="2375" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -550,8 +550,8 @@
             <mxPoint x="400" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="moNEwcxK6t8OCQCpNkJ9-1" value="Coordinator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="moNEwcxK6t8OCQCpNkJ9-2" value="Executor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="320" width="120" height="60" as="geometry" />
@@ -561,6 +561,21 @@
         </mxCell>
         <mxCell id="moNEwcxK6t8OCQCpNkJ9-5" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-9" value="Coordinator" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-10" value="TaskRunner" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-11" value="EngineRouter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-12" value="ExecutorPool" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-13" value="PoolManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
