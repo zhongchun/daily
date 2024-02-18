@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T06:13:58.391Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="EF6PmQCGGBoc7EAaKJU6" version="22.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-18T09:10:24.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="-PqGr_wisufdmoS4FfaF" version="23.1.1" type="github" pages="4">
   <diagram name="router" id="VHiE4uWUK3bGSRmgRNOV">
-    <mxGraphModel dx="2115" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2375" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="420" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ZnL9BYDdkvqU1IApOcME-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZnL9BYDdkvqU1IApOcME-1" target="ZnL9BYDdkvqU1IApOcME-2" edge="1">
@@ -53,7 +53,7 @@
             <mxPoint x="845" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZnL9BYDdkvqU1IApOcME-11" target="nJ76gcjRxf5y7iiIwIC3-1">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZnL9BYDdkvqU1IApOcME-11" target="nJ76gcjRxf5y7iiIwIC3-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZnL9BYDdkvqU1IApOcME-11" value="EngineCoordinator" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -112,40 +112,40 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-1" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;cpp&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;ray::rmip::EngineExecutor&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-1" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;cpp&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;ray::rmip::EngineExecutor&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="305" y="420" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-4" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;TRProxy&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-4" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;TRProxy&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="430" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-5" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;SOFAMQProxy&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-5" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;SOFAMQProxy&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="480" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZnL9BYDdkvqU1IApOcME-11" target="nJ76gcjRxf5y7iiIwIC3-13">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZnL9BYDdkvqU1IApOcME-11" target="nJ76gcjRxf5y7iiIwIC3-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="350" as="sourcePoint" />
             <mxPoint x="600" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-9" value="create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nJ76gcjRxf5y7iiIwIC3-6">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-9" value="create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nJ76gcjRxf5y7iiIwIC3-6" vertex="1" connectable="0">
           <mxGeometry x="-0.6615" y="-1" relative="1" as="geometry">
             <mxPoint y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-10" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Helvetica&quot;&gt;ray::rmip::EngineExecutor&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-10" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Helvetica&quot;&gt;ray::rmip::EngineExecutor&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-120" y="520" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nJ76gcjRxf5y7iiIwIC3-12" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Helvetica&quot;&gt;MediaBaseProcessingWorker&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="nJ76gcjRxf5y7iiIwIC3-12" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Helvetica&quot;&gt;MediaBaseProcessingWorker&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="90" y="520" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vtab6cQUvoI-Ft75zsSA-1" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;ray::rmip::ExecuteTaskWorker&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1f5e0;strokeColor=#8bb474;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="vtab6cQUvoI-Ft75zsSA-1" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;ray::rmip::ExecuteTaskWorker&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1f5e0;strokeColor=#8bb474;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="90" y="560" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Qjr5g9ErNz6De1QXAEth" name="scheduler">
-    <mxGraphModel dx="2115" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2375" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -404,118 +404,118 @@
         <mxCell id="0f4FThh7Tm_beG0wRwqU-80" value="EngineCoordinator::&lt;br&gt;getLiveStatus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="990" y="200" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YvC-hIiEsVTVC0__SQEo-1" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;prepareWorkerLifecycleRunnerDeque&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="YvC-hIiEsVTVC0__SQEo-1" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-size: 9pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;prepareWorkerLifecycleRunnerDeque&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="637" y="465" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="keBGLY_GC-zR2qqUoy2n" name="state manager">
-    <mxGraphModel dx="2267" dy="2001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2375" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-1" target="dNWO5NIlt2O0Vma2SlEf-2">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-1" target="dNWO5NIlt2O0Vma2SlEf-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" target="dNWO5NIlt2O0Vma2SlEf-4">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" target="dNWO5NIlt2O0Vma2SlEf-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="80" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-1" target="dNWO5NIlt2O0Vma2SlEf-6">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-1" target="dNWO5NIlt2O0Vma2SlEf-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-1" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;saveExecutorInfoInMem(taskId, actionName)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-1" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;saveExecutorInfoInMem(taskId, actionName)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="160" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-2" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;taskStatusMap.put(taskId, WAITING)&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;taskPool.put(taskId, actionName)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-2" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;taskStatusMap.put(taskId, WAITING)&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;taskPool.put(taskId, actionName)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="160" y="280" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-4" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;executorBind(taskId, actionName, executor)&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-4" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;executorBind(taskId, actionName, executor)&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="140" y="40" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-6" target="dNWO5NIlt2O0Vma2SlEf-35">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-6" target="dNWO5NIlt2O0Vma2SlEf-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-6" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;CreateExecutorTaskRunner::init()&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-6" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;CreateExecutorTaskRunner::init()&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="160" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-8" target="dNWO5NIlt2O0Vma2SlEf-1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-8" target="dNWO5NIlt2O0Vma2SlEf-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-8" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;CreateRycyclableExecutorTaskRunner::init()&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-8" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;CreateRycyclableExecutorTaskRunner::init()&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-240" y="160" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-10" target="dNWO5NIlt2O0Vma2SlEf-4">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-10" target="dNWO5NIlt2O0Vma2SlEf-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-10" target="dNWO5NIlt2O0Vma2SlEf-12">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-10" target="dNWO5NIlt2O0Vma2SlEf-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-10" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;RecyclableEngineCoordinator::createMediaBaseExecutor(config, actionName)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-10" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;RecyclableEngineCoordinator::createMediaBaseExecutor(config, actionName)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="40" width="560" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-12" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;RecyclableEngineCoordinator::startMediaBaseProcessing(config)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-12" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;RecyclableEngineCoordinator::startMediaBaseProcessing(config)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="520" y="-60" width="560" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-15" target="dNWO5NIlt2O0Vma2SlEf-4">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-15" target="dNWO5NIlt2O0Vma2SlEf-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-15" value="RecyclableEngineCoordinator::createSingleExecutor(config, actionName)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-15" value="RecyclableEngineCoordinator::createSingleExecutor(config, actionName)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="20" y="-130" width="560" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-20" target="dNWO5NIlt2O0Vma2SlEf-21">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-20" target="dNWO5NIlt2O0Vma2SlEf-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-20" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;taskStatusMap.remove(taskId)&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;taskPool.remove(taskId)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-20" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;taskStatusMap.remove(taskId)&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;taskPool.remove(taskId)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="160" y="480" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-21" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;removeExecutorInfoWithoutExternal(taskId)&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-21" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;removeExecutorInfoWithoutExternal(taskId)&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="620" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-23" target="dNWO5NIlt2O0Vma2SlEf-21">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-23" target="dNWO5NIlt2O0Vma2SlEf-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-23" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;executorUnbind(taskId)&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-23" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;executorUnbind(taskId)&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="140" y="720" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-25" target="dNWO5NIlt2O0Vma2SlEf-21">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-25" target="dNWO5NIlt2O0Vma2SlEf-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-25" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;removeExecutorInfo(taskId)&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-25" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;removeExecutorInfo(taskId)&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="620" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-27" target="dNWO5NIlt2O0Vma2SlEf-23">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-27" target="dNWO5NIlt2O0Vma2SlEf-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-27" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;RecyclableEngineCoordinator::stopProcessingExecutor(config)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-27" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;RecyclableEngineCoordinator::stopProcessingExecutor(config)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="820" width="560" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-29" target="dNWO5NIlt2O0Vma2SlEf-23">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-29" target="dNWO5NIlt2O0Vma2SlEf-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-29" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;RecyclableExecutorTaskRunner::run()&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-29" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;RecyclableExecutorTaskRunner::run()&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="520" y="720" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-1" target="dNWO5NIlt2O0Vma2SlEf-4">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-1" target="dNWO5NIlt2O0Vma2SlEf-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="160" as="sourcePoint" />
             <mxPoint x="300" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-33" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt; font-family: &amp;quot;Meslo LG L DZ for Powerline&amp;quot;, monospace;&quot;&gt;taskExecutorBindMap.remove(taskId)&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-33" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt; font-family: &amp;quot;Meslo LG L DZ for Powerline&amp;quot;, monospace;&quot;&gt;taskExecutorBindMap.remove(taskId)&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="165" y="680" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-34" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt; font-family: &amp;quot;Meslo LG L DZ for Powerline&amp;quot;, monospace;&quot;&gt;taskExecutorBindMap.put(taskId, executor)&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-34" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(36, 41, 46); font-size: 9pt; font-family: &amp;quot;Meslo LG L DZ for Powerline&amp;quot;, monospace;&quot;&gt;taskExecutorBindMap.put(taskId, executor)&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="140" y="70" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-35" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;EngineCoordinator::createNativeExecutorTaskRunner(config, actionName)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-35" value="&lt;div style=&quot;background-color:#ffffff;color:#24292e&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;EngineCoordinator::createNativeExecutorTaskRunner(config, actionName)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="280" width="520" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dNWO5NIlt2O0Vma2SlEf-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dNWO5NIlt2O0Vma2SlEf-15" target="dNWO5NIlt2O0Vma2SlEf-8">
+        <mxCell id="dNWO5NIlt2O0Vma2SlEf-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dNWO5NIlt2O0Vma2SlEf-15" target="dNWO5NIlt2O0Vma2SlEf-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="-80" as="sourcePoint" />
             <mxPoint x="310" y="50" as="targetPoint" />
@@ -525,11 +525,42 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="i6x4H1vcPH9HtJ-ufQRd-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i6x4H1vcPH9HtJ-ufQRd-1" target="dNWO5NIlt2O0Vma2SlEf-25">
+        <mxCell id="i6x4H1vcPH9HtJ-ufQRd-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i6x4H1vcPH9HtJ-ufQRd-1" target="dNWO5NIlt2O0Vma2SlEf-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i6x4H1vcPH9HtJ-ufQRd-1" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;DestroyExecutorTaskRunner&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="i6x4H1vcPH9HtJ-ufQRd-1" value="&lt;div style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;Meslo LG L DZ for Powerline&#39;,monospace;font-size:9.0pt;&quot;&gt;DestroyExecutorTaskRunner&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="520" y="520" width="320" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KOn-2aH5kG4Mdi9b4oG_" name="stream engine structure">
+    <mxGraphModel dx="1548" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="moNEwcxK6t8OCQCpNkJ9-1" target="moNEwcxK6t8OCQCpNkJ9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="moNEwcxK6t8OCQCpNkJ9-1" target="moNEwcxK6t8OCQCpNkJ9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="moNEwcxK6t8OCQCpNkJ9-1" target="moNEwcxK6t8OCQCpNkJ9-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-1" value="Coordinator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-2" value="Executor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-4" value="Executor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-5" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
