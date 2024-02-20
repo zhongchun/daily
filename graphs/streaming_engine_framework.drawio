@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-18T10:01:38.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="MXYUznitdRkiaIwnEJIT" version="23.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-20T08:54:48.088Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="WH2Mfyi0KXSpQl2B1WYX" version="23.1.1" type="github" pages="4">
   <diagram name="router" id="VHiE4uWUK3bGSRmgRNOV">
     <mxGraphModel dx="2375" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -535,7 +535,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KOn-2aH5kG4Mdi9b4oG_" name="stream engine structure">
-    <mxGraphModel dx="1083" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -623,7 +623,7 @@
         <mxCell id="moNEwcxK6t8OCQCpNkJ9-40" value="Coordinator" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="560" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="moNEwcxK6t8OCQCpNkJ9-41" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-41" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="50" y="640" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="moNEwcxK6t8OCQCpNkJ9-42" value="EngineRouter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -665,23 +665,23 @@
         <mxCell id="moNEwcxK6t8OCQCpNkJ9-54" value="Handler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="880" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="moNEwcxK6t8OCQCpNkJ9-55" value="HealthChecker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-55" value="HealthChecker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="380" y="590" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="moNEwcxK6t8OCQCpNkJ9-56" value="MigrationManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-56" value="MigrationManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="380" y="670" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="moNEwcxK6t8OCQCpNkJ9-57" value="TaskRunner" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="690" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="moNEwcxK6t8OCQCpNkJ9-58" value="Failover" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-58" value="Failover" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="215" y="690" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="moNEwcxK6t8OCQCpNkJ9-60" value="Monitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="560" width="110" height="200" as="geometry" />
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-60" value="Monitor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="560" y="560" width="90" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="moNEwcxK6t8OCQCpNkJ9-61" value="Alarm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="760" width="110" height="170" as="geometry" />
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-61" value="Alarm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="560" y="760" width="90" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
