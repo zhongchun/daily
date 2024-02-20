@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T12:42:33.596Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="PBaSQruOQUj4ijnckIQX" version="23.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-20T12:51:18.109Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="JOIFF2uYtRoBMcgt42zC" version="23.1.1" type="github" pages="4">
   <diagram name="router" id="VHiE4uWUK3bGSRmgRNOV">
     <mxGraphModel dx="2375" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -535,10 +535,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KOn-2aH5kG4Mdi9b4oG_" name="stream engine structure">
-    <mxGraphModel dx="743" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-134" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1895" width="330" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-124" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1900" width="90" height="200" as="geometry" />
+        </mxCell>
         <mxCell id="moNEwcxK6t8OCQCpNkJ9-120" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="1680" width="400" height="80" as="geometry" />
         </mxCell>
@@ -827,6 +833,33 @@
             <mxPoint x="329" y="1764" as="sourcePoint" />
             <mxPoint x="300" y="1820" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-121" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;align=center;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1910" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="1" source="moNEwcxK6t8OCQCpNkJ9-123" target="moNEwcxK6t8OCQCpNkJ9-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-123" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1970" width="128" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-126" value="Router" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1910" width="128" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="1" source="moNEwcxK6t8OCQCpNkJ9-127" target="moNEwcxK6t8OCQCpNkJ9-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-127" value="PoolManager" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2070" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-129" value="ExecutorPool" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="359" y="2070" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-131" value="Executor" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2190" width="128" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="moNEwcxK6t8OCQCpNkJ9-133" value="Proxy" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="315" y="2190" width="128" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
